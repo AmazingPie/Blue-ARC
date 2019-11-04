@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+    </df>
+    <logicalFolder name="kconfig"
+                   displayName="kconfig"
+                   projectFiles="true"
+                   root="../../../esp/esp-idf/tools/kconfig">
+      <logicalFolder name="lxdialog" displayName="lxdialog" projectFiles="true">
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/checklist.c</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/dialog.h</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/inputbox.c</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/menubox.c</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/textbox.c</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/util.c</itemPath>
+        <itemPath>../../../esp/esp-idf/tools/kconfig/lxdialog/yesno.c</itemPath>
+      </logicalFolder>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/conf.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/confdata.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/expr.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/expr.h</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/list.h</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/lkc.h</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/lkc_proto.h</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/mconf.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/menu.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/symbol.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/util.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/zconf.hash.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/zconf.lex.c</itemPath>
+      <itemPath>../../../esp/esp-idf/tools/kconfig/zconf.tab.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>ESP32|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <preprocessorList>
+              <Elem>CURSES_LOC=&lt;ncurses.h></Elem>
+              <Elem>LOCALE</Elem>
+              <Elem>_DEFAULT_SOURCE</Elem>
+              <Elem>_GNU_SOURCE</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../../../esp/esp-idf/tools/kconfig/conf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/confdata.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/expr.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/checklist.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/inputbox.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/menubox.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/textbox.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/util.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/lxdialog/yesno.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/mconf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/menu.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/symbol.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/util.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/zconf.hash.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/zconf.lex.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../esp/esp-idf/tools/kconfig/zconf.tab.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool>
+          <incDir>
+            <pElem>../../../esp/esp-idf/tools/kconfig</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="kconfig/lxdialog">
+        <cTool>
+          <incDir>
+            <pElem>../../../esp/esp-idf/tools/kconfig</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>
